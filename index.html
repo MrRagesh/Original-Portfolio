@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ragesh | Full Stack Developer</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Cursor -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="counter">0</div>
+  </div>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="logo">
+        <a href="#home">R<span>.</span></a>
+      </div>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="home-content">
+      <div class="text-content">
+        <h4 class="subtitle">Hello, I'm</h4>
+        <h1 class="title">Ragesh</h1>
+        <div class="typing-text">
+          <span>I'm a </span>
+          <span class="typing"></span>
+        </div>
+        <div class="cta-buttons">
+          <a href="assets/resume.pdf" class="btn primary-btn" download>
+            <span>Download CV</span>
+            <i class="fas fa-download"></i>
+          </a>
+          <a href="#contact" class="btn secondary-btn">
+            <span>Let's Talk</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+        </div>
+      </div>
+      <div class="profile-container">
+        <div class="profile-img-wrapper">
+          <div class="profile-img-bg"></div>
+          <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Ragesh" class="profile-img">
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div>
+        <span class="scroll-arrow">
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="section-header">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-image">
+        <div class="about-img-wrapper">
+          <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Ragesh Profile">
+          <div class="floating-box">
+            <div class="experience-box">
+              <span class="exp-number">5+</span>
+              <span class="exp-text">Years of<br>Experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <h3>I'm a passionate <span class="highlight">Full Stack Developer</span> with expertise in creating exceptional digital experiences.</h3>
+        <p>I specialize in building modern, responsive web applications that deliver outstanding user experiences. With a strong foundation in both front-end and back-end technologies, I bring ideas to life through clean, efficient code and thoughtful design.</p>
+        <p>My background in graphic design and UI/UX principles allows me to approach development with a keen eye for aesthetics and usability. I'm committed to continuous learning and staying current with the latest technologies and best practices.</p>
+        <div class="personal-info">
+          <div class="info-item">
+            <span class="info-title">Name:</span>
+            <span class="info-value">Ragesh</span>
+          </div>
+          <div class="info-item">
+            <span class="info-title">Email:</span>
+            <span class="info-value">contact@ragesh.dev</span>
+          </div>
+          <div class="info-item">
+            <span class="info-title">Location:</span>
+            <span class="info-value">New York, USA</span>
+          </div>
+          <div class="info-item">
+            <span class="info-title">Availability:</span>
+            <span class="info-value">Open for Freelance</span>
+          </div>
+        </div>
+        <div class="cta-buttons">
+          <a href="assets/resume.pdf" class="btn primary-btn" download>
+            <span>Download Resume</span>
+            <i class="fas fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="section-header">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-container">
+      <div class="skills-category">
+        <h3 class="category-title">Full Stack Development</h3>
+        <div class="skills-grid">
+          <div class="skill-item" data-skill="90">
+            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+            <h4>HTML/CSS</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-item" data-skill="85">
+            <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+            <h4>JavaScript</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-item" data-skill="80">
+            <div class="skill-icon"><i class="fab fa-react"></i></div>
+            <h4>React</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-item" data-skill="75">
+            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+            <h4>Node.js</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">75%</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills-category">
+        <h3 class="category-title">Design</h3>
+        <div class="skills-grid">
+          <div class="skill-item" data-skill="90">
+            <div class="skill-icon"><i class="fab fa-figma"></i></div>
+            <h4>UI/UX Design</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-item" data-skill="85">
+            <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+            <h4>Graphic Design</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-item" data-skill="80">
+            <div class="skill-icon"><i class="fas fa-film"></i></div>
+            <h4>Video Editing</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-item" data-skill="75">
+            <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+            <h4>Responsive Design</h4>
+            <div class="skill-progress-bar">
+              <div class="skill-progress-fill"></div>
+            </div>
+            <span class="skill-percentage">75%</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skills-category tools-container">
+        <h3 class="category-title">Tools & Technologies</h3>
+        <div class="tools-grid">
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-git-alt"></i></div>
+            <span>Git</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-docker"></i></div>
+            <span>Docker</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-aws"></i></div>
+            <span>AWS</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-wordpress"></i></div>
+            <span>WordPress</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-adobe"></i></div>
+            <span>Adobe Suite</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fas fa-database"></i></div>
+            <span>MongoDB</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fas fa-server"></i></div>
+            <span>Express</span>
+          </div>
+          <div class="tool-item">
+            <div class="tool-icon"><i class="fab fa-sass"></i></div>
+            <span>Sass</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="section-header">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="design">UI/UX Design</button>
+      <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+      <button class="filter-btn" data-filter="video">Video Editing</button>
+    </div>
+    <div class="projects-grid">
+      <div class="project-item" data-category="web">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="E-commerce Website">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>E-commerce Platform</h3>
+              <p>Full-stack online store with payment integration</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-category="design">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Mobile App Design">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>Finance App UI</h3>
+              <p>Mobile application interface design for banking</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-category="graphic">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Brand Identity">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>Brand Identity</h3>
+              <p>Complete brand package for tech startup</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-category="video">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/2510428/pexels-photo-2510428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Product Video">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>Product Showcase</h3>
+              <p>Promotional video for tech product launch</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-category="web">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Dashboard UI">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>Analytics Dashboard</h3>
+              <p>Data visualization platform with real-time updates</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-category="design">
+        <div class="project-img">
+          <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Web App Design">
+          <div class="project-overlay">
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>UI/UX design for productivity application</p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements-section">
+    <div class="section-header">
+      <h2 class="section-title">Achievements & <span>Education</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline-container">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="certifications">Certifications</button>
+      </div>
+      
+      <div class="tab-content active" id="experience">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022 - Present</div>
+            <div class="timeline-content">
+              <h3>Senior Full Stack Developer</h3>
+              <p class="company">Tech Innovations Inc.</p>
+              <p>Leading development of enterprise web applications, managing team of 5 developers, and implementing CI/CD pipelines.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2020 - 2022</div>
+            <div class="timeline-content">
+              <h3>UI/UX Designer & Developer</h3>
+              <p class="company">Creative Solutions Agency</p>
+              <p>Designed and developed user interfaces for mobile and web applications, created wireframes and prototypes, and conducted user testing.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2018 - 2020</div>
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <p class="company">Web Experts Ltd</p>
+              <p>Built responsive websites and web applications using modern JavaScript frameworks and CSS preprocessors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="education">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2016 - 2018</div>
+            <div class="timeline-content">
+              <h3>Master of Computer Science</h3>
+              <p class="company">University of Technology</p>
+              <p>Specialized in Software Engineering with focus on web technologies and user interface design.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2012 - 2016</div>
+            <div class="timeline-content">
+              <h3>Bachelor of Computer Science</h3>
+              <p class="company">State University</p>
+              <p>Graduated with honors, specialized in programming and web development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="certifications">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023</div>
+            <div class="timeline-content">
+              <h3>AWS Certified Solutions Architect</h3>
+              <p class="company">Amazon Web Services</p>
+              <p>Advanced certification for designing distributed systems on AWS.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-content">
+              <h3>Professional Scrum Master</h3>
+              <p class="company">Scrum.org</p>
+              <p>Certification in Agile project management and Scrum methodologies.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2021</div>
+            <div class="timeline-content">
+              <h3>Google UX Design Professional Certificate</h3>
+              <p class="company">Google</p>
+              <p>Comprehensive training in user experience design principles and methodologies.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section-header">
+      <h2 class="section-title">Contact <span>Me</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Location</h3>
+            <p>New York, NY, USA</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Email</h3>
+            <p>contact@ragesh.dev</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Phone</h3>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-container">
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn primary-btn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <a href="#home">R<span>.</span></a>
+      </div>
+      <p>&copy; 2025 Ragesh. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#home" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
