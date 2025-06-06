@@ -331,6 +331,7 @@ section {
   color: var(--text-light);
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
+  box-shadow: 5px 5px 10px rgb(255, 0, 0);
 }
 
 /* Home Section */
