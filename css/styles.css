@@ -1194,3 +1194,11 @@ section {
   background-color: var(--primary-dark);
   transform: translateY(-5px);
 }
+
+.certificate img{
+  width: 300px;
+}
+.certificate{
+  padding: 10px;
+  margin: 20px 0px 0px 0px;
+}
